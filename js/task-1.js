@@ -5,5 +5,6 @@ console.log(`Number of categories: ${numberOfCategories}`);
 items.forEach (item => {
     const header = item.querySelector("h2").textContent;
     const elementsInHeader = item.querySelectorAll("li").length;
-    console.log(header, elementsInHeader);
+    console.log(`Category: ${header}`);
+    console.log(`Elements: ${elementsInHeader}`);
 })
